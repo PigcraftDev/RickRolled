@@ -1,0 +1,19 @@
+{
+  "name": "Rick Rolled",
+  "description": "Rick Rolled is an extension rick rolls you.",
+  "version": "0.0.3.4",
+  "manifest_version": 2,
+  "icons": {
+    "576": "icons/576.png"
+  },
+  "browser_action": {
+    "default_title": "Rick Roled",
+    "default_popup": "popup/options.html"
+  },
+  "background": {
+  },
+  
+  "permissions": [
+      "storage"
+  ]
+}
